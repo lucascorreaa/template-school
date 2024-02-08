@@ -116,3 +116,57 @@ main > img {
 .iconTextHero {
     margin-top: -20px;
 }
+
+section{
+width: 100%;
+height: 666px;
+border: 1px solid black;
+}
+
+.card{
+
+    width: 272px;
+    height: 306px;
+    background-color: #ED4D1B;    ;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding-top: 27px;
+    padding: top;
+    align-items: flex-start;
+    padding-left: 32px;
+    pad
+}
+
+
+.card >img{
+    display: block;
+    align-self: self-end;
+    padding-top: 50px;
+
+}
+
+.cardContent{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+
+}
+.cardContent > img{
+
+    width: 48px;
+    height: 48px;
+}
+.cardContent > p{
+    width: 207;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+.cardContent > h3{
+font-size: 24px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}

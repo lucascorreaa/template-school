@@ -116,3 +116,102 @@ main > img {
 .iconTextHero {
     margin-top: -20px;
 }
+section{
+    width: 100%;
+    height: 60%;
+    border: 1px solid black;
+}
+.card{
+    width: 272px;
+    height: 306px;
+    background-color: #ED4D1B;
+    padding-left: 32px;
+    padding-top: 27px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+}
+
+.card-content>p{
+    width: 207px;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.card-content>h3{
+    width: 203px;
+    font-size: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.card-content > img{
+    width: 48px;
+    height: 48px;
+    
+}
+.card > img{
+ display: block;
+ align-self: flex-end; 
+ padding-top: 40px;
+}
+.yellow-card{
+    width: 272px;
+    height: 306px;
+    background-color: #ED4D1B;
+    padding-left: 32px;
+    padding-top: 27px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.yellow-card-content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+}
+
+.yellow-card-content>p{
+    width: 207px;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.card-content>h3{
+    width: 203px;
+    font-size: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.card-content > img{
+    width: 48px;
+    height: 48px;
+    
+}
+.card > img{
+ display: block;
+ align-self: flex-end; 
+ padding-top: 40px;
+}
+
+
+    
+    
+
+

@@ -121,52 +121,141 @@ section{
 width: 100%;
 height: 666px;
 border: 1px solid black;
+display: flex;
+padding: 25px;
+gap: 30px;
+flex-direction: column;
+align-items: center;
+
 }
 
-.card{
+    .logo{
+
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 40px;
+        
+        
+    }
+
+.alinhamento{
+    display: flex;
+    gap: 30px;
+    margin-top: -10px;
+ 
+    
+    
+    
+    
+      }
+
+.cardred{
 
     width: 272px;
     height: 306px;
     background-color: #ED4D1B;    ;
-    border: 1px solid black;
+    border: 2px solid black;
     display: flex;
     flex-direction: column;
     padding-top: 27px;
     padding: top;
     align-items: flex-start;
     padding-left: 32px;
-    pad
+    margin : -30px;
+    padding: 20px;
+    
+           
 }
 
 
-.card >img{
+.cardred>img{
     display: block;
     align-self: self-end;
     padding-top: 50px;
 
 }
 
-.cardContent{
+.cardred{
     display: flex;
     flex-direction: column;
     gap: 16px;
 
 
 }
-.cardContent > img{
+.redContent> img{
 
     width: 48px;
     height: 48px;
 }
-.cardContent > p{
+.redContent > p{
     width: 207;
     font-size: 16px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 
 }
-.cardContent > h3{
+.redContent > h3{
 font-size: 24px;
 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
+
+
+
+.cardyello{
+
+    width: 272px;
+    height: 306px;
+    background-color: #FF9A3C;    ;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    padding-top: 27px;
+    padding: top;
+    align-items: flex-start;
+    padding-left: 32px;
+    margin : 30px;
+    padding: 20px;
+           
+}
+
+
+.cardyello>img{
+    display: block;
+    align-self: self-end;
+    padding-top: 50px;
+
+}
+
+.yelloContent{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+
+}
+.yelloContent> img{
+
+    width: 48px;
+    height: 48px;
+}
+.yelloContent> p{
+    width: 207;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+.yelloContent> h3{
+font-size: 24px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+.logo{
+
+    display: flex;
+    flex-direction: column;
+}
+
+

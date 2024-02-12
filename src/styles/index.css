@@ -336,3 +336,16 @@ li{
     font-family: Roboto;
     font-size: 24px;
 }
+
+.alinhamento_footer{
+
+    display: flex;
+    justify-content: end;
+
+}
+
+
+.miniTextContent{
+
+
+}

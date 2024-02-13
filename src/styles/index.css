@@ -292,21 +292,40 @@ color: #ED4D1B;
  
 }
 
-.footer_contents {
-font-size: 30px;
-width: 900px;
-line-height: 46.88px;
-font-family: Roboto;
-}
+.formag{
 
-
-.footer_text > p{
     display: flex;
     flex-direction: column;
-    font-size: 15px;
-    font-family: Roboto;
-    line-height: 23.44px;
+    gap: 15px;
+    margin-top: 60px;
+    margin-left: 30px;
 }
+
+ .cabeçalho2 {
+font-family: Roboto;
+font-size: 20px;
+font-weight: 900;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+
+font-family: Roboto;
+font-size: 40px;
+font-weight: 900;
+line-height: 47px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+
+.cabeçalho2 > p{
+font-size: 15px;
+margin-top: -20px;
+
+}
+
+
 
 
 .lista2{
@@ -321,14 +340,14 @@ font-family: Roboto;
     flex-direction: column;
     align-items: center;
     gap: 30px;
-    margin-top: -100px;
+    margin-top: -130px;
     
 
     
    
 }
 
-li{
+a{
 
     text-decoration: none;
     width: 176px;

@@ -42,15 +42,19 @@ nav > a {
   color: black;
 }
 
-header > button {
-  width: 200px;
-  height: 48px;
+button {
+  width: fit-content;
   background-color: #ed4d1b;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 700;
   font-size: 20px;
-  border: 2px solid black;
+  border: 4px solid black;
+  box-shadow: 5px 5px black;
+  padding: 10px;
+  display: 1;
+  justify-content: center;
+  align-items: center;
 }
 
 main {
@@ -86,16 +90,6 @@ span > p {
   color: black;
 }
 
-span > button {
-  width: 225px;
-  height: 48px;
-  background-color: #ed4d1b;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 700;
-  font-size: 20px;
-  border: 2px solid black;
-}
 
 main > img {
   width: 60%;
@@ -123,11 +117,17 @@ main > img {
 
 section {
   display: flex;
-  gap: 25px;
+  flex-direction: column;
   width: 100%;
   height: 666px;
-  border: 1px solid black;
-  justify-content: center;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  align-items: center;
+}
+
+section > button {
+  margin-top: 64px;
 }
 
 .card {
@@ -138,8 +138,17 @@ section {
   padding-top: 27px;
   width: 272px;
   height: 306px;
+  border: 5px solid black;
+  box-shadow: 8px 8px black;
+}
+
+.red {
   background-color: #ed4d1b;
-  border: 2px solid black;
+}
+
+.yellow {
+  background-color: #FF9A3C;
+  margin-top: 15px;
 }
 
 .card > img {
@@ -170,4 +179,57 @@ section {
 .cardContent > img {
   width: 48px;
   height: 48px;
+}
+
+.cardWrapper {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-top: -60px;
+}
+
+section > h2 {
+  padding-top: 118px;
+  font-size: 64px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+footer {
+  width: 100%;
+  height: 403px;
+  display: flex;
+  justify-content: space-around;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.logoFooter {
+  font-size: 40px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.text {
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.footerContent {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.footerContent > a {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.footerDescription {
+  width: 272px;
 }
